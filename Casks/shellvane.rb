@@ -1,17 +1,15 @@
 cask "shellvane" do
-  version "0.1.0"
-  sha256 "6f2f049c403d7ca21806a85d28cdfae22cbf739a9abfbe5a86910f0afff91895"
+  version "0.1.1"
+  sha256 "1399810771d5fa03762d3ce4e71640f61e08393773a7b7286405fd80c7cc43cd"
 
-  url "https://termoraplus.com/downloads/v#{version}/shellvane-#{version}-macos-arm64.dmg"
+  url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-#{version}-macos-arm64.dmg"
   name "Shellvane"
   desc "SSH client, terminal and connection manager"
   homepage "https://termoraplus.com"
 
   livecheck do
-    url "https://termoraplus.com/downloads/latest.json"
-    strategy :json do |json|
-      json["version"]
-    end
+    url :url
+    strategy :github_latest
   end
 
   # Shellvane updates itself (Settings > Updates).
