@@ -1,19 +1,19 @@
 class ShellvaneCli < Formula
   desc "Command-line companion of Shellvane: list and open saved hosts"
   homepage "https://termoraplus.com"
-  version "0.1.2"
+  version "0.1.3"
   license :cannot_represent
 
   on_macos do
     depends_on arch: :arm64
     url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-cli-macos-arm64"
-    sha256 "60bffa569d590954a4f78224d2c79a93d9f36ef2acd77901430d8d2f60c713b7"
+    sha256 "5cfb96e97af73b0cf3187e51b5cc2ed96df3f4667965fbd4236327cf2b120344"
   end
 
   on_linux do
     depends_on arch: :x86_64
     url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-cli-linux-amd64"
-    sha256 "eff5fc12cd19ac641f0655763d38cdea7e6d907e070e780dbb59687091776925"
+    sha256 "355212d768c634a87afac4c1663f8daecc0cd105ea2c8f7b3091f21baecf6e54"
   end
 
   livecheck do
