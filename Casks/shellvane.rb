@@ -1,11 +1,11 @@
 cask "shellvane" do
-  version "0.1.3"
-  sha256 "a63a4de4c5b030ee88ab5044b8d3fcabd1aea13ec24de918cf991de77a24cf8c"
+  version "0.1.4"
+  sha256 "f6fed4caff66cbe89a599c63517269f13c2bccd533c3d18b73e3b2e3cd25ba62"
 
   url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-#{version}-macos-arm64.dmg"
   name "Shellvane"
   desc "SSH client, terminal and connection manager"
-  homepage "https://termoraplus.com"
+  homepage "https://shellvane.com"
 
   livecheck do
     url :url
