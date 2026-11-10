@@ -1,19 +1,19 @@
 class ShellvaneCli < Formula
   desc "Command-line companion of Shellvane: list and open saved hosts"
   homepage "https://shellvane.com"
-  version "0.1.7"
+  version "0.1.8"
   license :cannot_represent
 
   on_macos do
     depends_on arch: :arm64
     url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-cli-macos-arm64"
-    sha256 "fb2954c2661f9b5aa9cc6097b10b6f2d688822fc9cfe4837b2b18598ce0bbe90"
+    sha256 "b0ec3103273aa178d17072b6ed1f083dc086f557774bd12159a48dee29359ff4"
   end
 
   on_linux do
     depends_on arch: :x86_64
     url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-cli-linux-amd64"
-    sha256 "9c127d548414c8b153a7de9f4a048eab436c3e630d784026bbe0fc0053890d8c"
+    sha256 "6280b9f8717cf73766f0271ad185d6db7c64d690ef09171d7e53cda14ab134d7"
   end
 
   livecheck do
