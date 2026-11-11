@@ -13,7 +13,7 @@ class ShellvaneCli < Formula
   on_linux do
     depends_on arch: :x86_64
     url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-cli-linux-amd64"
-    sha256 "36ee21b438486c0561697f822cf9274d69cc7a5858f252f379f1c1fc1ded6876"
+    sha256 "5215d105e52b9470444ce20a70ce729c2ca8521ddfa2ee9beac1f77a13eb941d"
   end
 
   livecheck do
