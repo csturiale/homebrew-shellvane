@@ -1,8 +1,8 @@
 cask "shellvane" do
-  version "0.2.1"
-  sha256 "35fbd0ef4088a0dbb89a284dc8f03617074fa81103b8609ab8c36d3f0ca9ea93"
+  version "0.2.2"
+  sha256 "0031a1fa9a6deea7e5a4add2eed0fcce68f6e1a9fb00b436e5bf2946dc7d88d1"
 
-  url "https://github.com/csturiale/shellvane/releases/download/v#{version}/shellvane-#{version}-macos-arm64.dmg"
+  url "https://shellvane.com/downloads/v#{version}/shellvane-#{version}-macos-arm64.dmg"
   name "Shellvane"
   desc "SSH client, terminal and connection manager"
   homepage "https://shellvane.com"
