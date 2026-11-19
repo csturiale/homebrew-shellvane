@@ -1,6 +1,6 @@
 cask "shellvane" do
-  version "0.2.4"
-  sha256 "8ff384260bcb0200b5ed239ecf857f824ca06089d85ba682985a5e2da35d47ae"
+  version "0.2.5"
+  sha256 "f78ebed54bb61b5e07a4d5af0b70774b9a1850b3a1012a3fddab0b2a43bced5d"
 
   url "https://shellvane.com/downloads/v#{version}/shellvane-#{version}-macos-arm64.dmg"
   name "Shellvane"
